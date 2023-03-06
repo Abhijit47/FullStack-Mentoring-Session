@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Fira+Sans+Condensed:wght@400;500;600;700&family=Oxygen:wght@400;700&family=Poppins:wght@400;500&family=Signika+Negative:wght@400;500;600&display=swap');
+@import url(./carousel.css);
+@import url(./features.css);
+@import url(./footer.css);
+@import url(./hero.css);
+@import url(./meal_section.css);
+@import url(./price.css);
+@import url(./testimonial.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f7f1e5;
+}
+
+.section-header {
+  background: rgba(185, 184, 184, 0.5);
+  backdrop-filter: saturate(180%) blur(10px);
+  padding: 1.5rem;
+  border-radius: 0px;
+  width: 100%;
+  height: 8rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+.hero__logo {
+  width: 100%;
+  height: 85%;
+  align-items: flex-start;
+}
+
+.nav-container,
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+
+.nav-list li {
+  list-style: none;
+}
+
+
+.nav-link:link,
+.nav-link:visited {
+  color: #333;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: 'Popins', sans-serif;
+}
+
+.nav-link:hover {
+  color: #fd9644;
+}
+
+.nav__btn:link,
+.nav__btn:visited {
+  padding: 1rem;
+  background-color: #fd9644;
+  border-radius: 15px;
+
+  border: 6px solid #fee0c7;
+  color: #333;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-family: 'Popins', sans-serif;
+}
+
+.nav__btn:hover {
+  color: #fff;
+}
+
+.heading-primary {
+  font-size: 1rem;
+}
+
+.heading__secondary {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.mb-extra {
+  margin-bottom: 5.5rem;
+}
+
+.heading__tertiary {
+  font-size: 2rem;
+}
+
+
+
+
+
+/* MAIN SECTION */
+.section-main {
+  margin-top: 4.5rem;
+  margin-bottom: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.section-main .-container:nth-child(4) {
+  margin-bottom: 2.5rem;
+}
+
+.-container {
+  background-color: chocolate;
+  height: 95vh;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid black;
+}
+
+
+
+.-container {
+  opacity: 1;
+}

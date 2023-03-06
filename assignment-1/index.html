@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omnifood Project</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="section-header">
+      <a href="#hero">
+        <img src="img/omnifood-logo.png" alt="hero logo" class="hero__logo" />
+      </a>
+
+      <nav class="nav-container">
+        <ul class="nav-list">
+          <li>
+            <a href="#features" class="nav-link">How it works</a>
+          </li>
+          <li>
+            <a href="#meal" class="nav-link">Meals</a>
+          </li>
+          <li>
+            <a href="#testimonial" class="nav-link">Testimonials</a>
+          </li>
+          <li>
+            <a href="#price" class="nav-link">Pricing</a>
+          </li>
+          <li>
+            <a href="#price" class="nav__btn">Try for free</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero__section" id="hero">
+      <div class="hero__text-box">
+        <h1 class="hero__text">
+          A healthy meal delivered to your door, every single day
+        </h1>
+
+        <p class="hero__para">
+          The smart 365-days-per-year food subscription that will make you eat
+          healthy again. Tailored to your personal tastes and nutritional needs.
+        </p>
+
+        <div class="hero__btn">
+          <a href="#meal" class="btn btn__primary">Start eating well</a>
+          <a href="#carousel" class="btn btn__secondary">Learn more &darr;</a>
+        </div>
+      </div>
+      <div class="hero__image-box">
+        <img src="/img/hero.webp" alt="hero image" class="hero-image-1" />
+      </div>
+    </section>
+
+    <!-- CAROUSEL -->
+
+    <section class="caroucel-container" id="carousel">
+      <div class="carousel">
+        <div class="carousel-controls">
+          <input id="1" type="radio" name="controls" checked />
+          <input id="2" type="radio" name="controls" />
+          <input id="3" type="radio" name="controls" />
+          <div class="dots">
+            <label for="1"></label>
+            <label for="2"></label>
+            <label for="3"></label>
+          </div>
+          <div class="carousel-images">
+            <div class="slider-image-1">&nbsp;</div>
+            <div class="slider-image-2">&nbsp;</div>
+            <div class="slider-image-3">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN SECTION -->
+    <main class="section-main">
+      <h2 class="heading__secondary" id="features">How it works</h2>
+      <section class="feature__section">
+        <div class="feature__card-1">
+          <ion-icon name="cart-outline" class="feature__icon"></ion-icon>
+          <h3 class="heading__tertiary">No Minimum Order</h3>
+          <p class="how__it_para">
+            Order in for yourself or for the group, with no restrictions on
+            order value
+          </p>
+        </div>
+        <div class="feature__card-2">
+          <ion-icon name="map-outline" class="feature__icon"></ion-icon>
+          <h3 class="heading__tertiary">Live Order Tracking</h3>
+          <p class="how__it_para">
+            Know where your order is at all times, from the restaurant to your
+            doorstep
+          </p>
+        </div>
+        <div class="feature__card-3">
+          <ion-icon name="hourglass-outline" class="feature__icon"></ion-icon>
+          <h3 class="heading__tertiary">Lightning-Fast Delivery</h3>
+          <p class="how__it_para">
+            Experience Our's superfast delivery for food delivered fresh & on
+            time
+          </p>
+        </div>
+      </section>
+
+      <!-- MEAL SECTION -->
+      <h2 class="heading__secondary">Most popular foods</h2>
+      <section class="meal__section" id="meal">
+        <div class="meal__card-1">
+          <div class="card-1">&nbsp;</div>
+          <h3 class="heading__tertiary">Burger</h3>
+          <ul class="meal__list">
+            <li>
+              <ion-icon name="flame-outline" class="meal__icon"></ion-icon>
+              400 calories
+            </li>
+            <li>
+              <ion-icon name="restaurant-outline" class="meal__icon"></ion-icon>
+              NutriScore&nbsp;&reg;&nbsp;92
+            </li>
+            <li>
+              <ion-icon name="star-outline" class="meal__icon"></ion-icon>
+              4.8 rating (441)
+            </li>
+          </ul>
+        </div>
+        <div class="meal__card-2">
+          <div class="card-2">&nbsp;</div>
+          <h3 class="heading__tertiary">Momos</h3>
+          <ul class="meal__list">
+            <li>
+              <ion-icon name="flame-outline" class="meal__icon"></ion-icon>
+              470 calories
+            </li>
+            <li>
+              <ion-icon name="restaurant-outline" class="meal__icon"></ion-icon>
+              NutriScore&nbsp;&reg;&nbsp;84
+            </li>
+            <li>
+              <ion-icon name="star-outline" class="meal__icon"></ion-icon>
+              4.7 rating (459)
+            </li>
+          </ul>
+        </div>
+        <div class="meal__card-3">
+          <div class="card-3">&nbsp;</div>
+          <h3 class="heading__tertiary">Pizza</h3>
+          <ul class="meal__list">
+            <li>
+              <ion-icon name="flame-outline" class="meal__icon"></ion-icon>
+              460 calories
+            </li>
+            <li>
+              <ion-icon name="restaurant-outline" class="meal__icon"></ion-icon>
+              NutriScore&nbsp;&reg;&nbsp;96
+            </li>
+            <li>
+              <ion-icon name="star-outline" class="meal__icon"></ion-icon>
+              4.9 rating (478)
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- TESTIMONIAL SECTION -->
+      <section class="testimonial__section" id="testimonial">
+        <h2 class="heading__secondary mb-extra">Testimonials</h2>
+        <div class="testimonials-1">
+          <img src="img/ben.jpg" class="testimonial__image-1" />
+          <p class="testimonial-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut.
+            Eaque repellendus dolore fuga dolores esse et ex deleniti error
+            pariatur ea nobis perspiciatis molestiae ut animi, placeat earum
+            quidem.
+          </p>
+        </div>
+
+        <div class="testimonials-2">
+          <img src="img/dave.jpg" class="testimonial__image-2" />
+          <p class="testimonial-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut.
+            Eaque repellendus dolore fuga dolores esse et ex deleniti error
+            pariatur ea nobis perspiciatis molestiae ut animi, placeat earum
+            quidem.
+          </p>
+        </div>
+
+        <div class="testimonials-3">
+          <img src="img/hannah.jpg" class="testimonial__image-3" />
+          <p class="testimonial-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut.
+            Eaque repellendus dolore fuga dolores esse et ex deleniti error
+            pariatur ea nobis perspiciatis molestiae ut animi, placeat earum
+            quidem.
+          </p>
+        </div>
+      </section>
+
+      <!-- PRICING SECTION -->
+      <h2 class="heading__secondary mb-extra" id="price">
+        Eating well without breaking the bank
+      </h2>
+      <section class="pricing__section">
+        <div class="basic__card-1">
+          <h4 class="price__heading">Starter</h4>
+          <h3 class="price__amt">&#8377;999</h3>
+          <p class="price__text">per month. That's just ₹34 per meal!</p>
+          <ul class="pricing__list">
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-circle-outline"></ion-icon>
+              1 meal per day
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-circle-outline"></ion-icon>
+              Order from 11am to 9pm
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-circle-outline"></ion-icon>
+              Delivery is free
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-circle-outline"></ion-icon>
+              &nbsp;
+            </li>
+          </ul>
+          <a href="#" class="btn btn__primary">Start eating well</a>
+        </div>
+        <div class="basic__card-2">
+          <h4 class="price__heading color-modify">Complete</h4>
+          <h3 class="price__amt">&#8377;1499</h3>
+          <p class="price__text">per month. That's just ₹50 per meal!</p>
+          <p class="price__tag">Best value</p>
+          <ul class="pricing__list">
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-circle-outline"></ion-icon>
+              2 meals per day
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-circle-outline"></ion-icon>
+              Order 24/7
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-circle-outline"></ion-icon>
+              Delivery is free
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-circle-outline"></ion-icon>
+              Get access to latest recipes
+            </li>
+          </ul>
+          <a href="#" class="btn btn__primary">Start eating well</a>
+        </div>
+        <div class="basic__card-3">
+          <h2 class="price__heading">Works with any diet:</h2>
+          <ul class="pricing__list">
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-done-circle-outline"></ion-icon>
+              Vegeterian
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-done-circle-outline"></ion-icon>
+              Vegan
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-done-circle-outline"></ion-icon>
+              Pescatarian
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-done-circle-outline"></ion-icon>
+              Gluten-free
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-done-circle-outline"></ion-icon>
+              Lactose-free
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-done-circle-outline"></ion-icon>
+              Keto
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-done-circle-outline"></ion-icon>
+              Paleo
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-done-circle-outline"></ion-icon>
+              Low FODMAP
+            </li>
+            <li>
+              <ion-icon
+                class="price__icon"
+                name="checkmark-done-circle-outline"></ion-icon>
+              Kid-friendly
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- <section class="-container">Container4</section> -->
+    </main>
+    <footer class="footer__section">
+      <div class="footer__container">
+        <div class="logo__box">
+          <a href="#hero" class="footer__link">
+            <img
+              src="img/omnifood-logo.png"
+              alt="footer-logo"
+              class="footer__logo" />
+          </a>
+          <ul class="logo__links">
+            <li>
+              <a href="#">
+                <ion-icon name="logo-instagram" class="footer__icon"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="logo-facebook" class="footer__icon"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="logo-twitter" class="footer__icon"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="logo-whatsapp" class="footer__icon"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <p class="footer__text">
+            Copyright &copy; 2023 by Omnifood, Inc.All rights reserved.
+          </p>
+        </div>
+        <div class="contact__box">
+          <h4 class="footer__header">Contact us</h4>
+          <p class="footer__text">
+            623 Harrison St., 2nd Floor, San Francisco, CA 94107
+          </p>
+          <a href="tel:+415-201-6370">+415-201-6370</a>
+          <a href="mailto:hello@omnifood.com">hello@omnifood.com</a>
+        </div>
+        <div class="account__box">
+          <h4 class="footer__header">Account</h4>
+          <ul class="acc__list">
+            <li><a href="#">Create account</a></li>
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#">iOS app</a></li>
+            <li><a href="#">Android app</a></li>
+          </ul>
+        </div>
+        <div class="comapny__box">
+          <h4 class="footer__header">Company</h4>
+          <ul class="company__list">
+            <li><a href="#">About Omnifood</a></li>
+            <li><a href="#">For Business</a></li>
+            <li><a href="#">Cooking partners</a></li>
+            <li><a href="#">Carriers</a></li>
+          </ul>
+        </div>
+        <div class="resource__box">
+          <h4 class="footer__header">Resources</h4>
+          <ul class="resource__list">
+            <li><a href="#">Recipe directory</a></li>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Privacy & terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+.footer__section {
+  /* background-color: chocolate; */
+  /* background-color: chocolate; */
+  height: 65vh;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  /* border: 1px solid black; */
+
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.logo__box,
+.contact__box,
+.account__box,
+.comapny__box,
+.resource__box {
+  /* background-color: #e7e5e4; */
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 19%;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.logo__links li {
+  list-style: none;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.logo__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.footer__icon {
+  color: #333;
+}
+
+.footer__icon:hover {
+  color: #ea580c;
+}
+
+.footer__text {
+  font-size: 1.5rem;
+  color: #444;
+  line-height: 2.2;
+}
+
+.footer__logo {
+  width: 100%;
+}
+
+.contact__box a {
+  list-style: none;
+  color: #444;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.acc__list,
+.company__list,
+.resource__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.acc__list li,
+.company__list li,
+.resource__list li {
+  list-style: none;
+}
+
+.acc__list a,
+.company__list a,
+.resource__list a {
+  color: #444;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.contact__box a:hover,
+.account__box a:hover,
+.comapny__box a:hover,
+.resource__box a:hover {
+  color: #ea580c;
+}
